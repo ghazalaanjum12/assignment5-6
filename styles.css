@@ -1,0 +1,86 @@
+/*
+    Author: Ghazala Anjum C0905815
+    Version: 1.0
+    Date: 28-03-2024
+    Description: CSS file for styling the currency converter HTML elements.
+*/
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header styles */
+.header {
+    background-color: #3333cc;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Conversion rate styles */
+.conversion-rate {
+    background-color: #5555dd;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Input container styles */
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.input-container:last-child {
+    border-bottom: none;
+}
+
+/* Label styles */
+label {
+    flex: 0 0 30%;
+}
+
+/* Input field styles */
+input[type="number"] {
+    flex: 0 0 45%;
+    padding: 8px;
+}
+
+/* Convert button container styles */
+.convert-button-container {
+    text-align: right;
+    padding: 15px;
+}
+
+/* Convert button styles */
+button {
+    padding: 10px 20px;
+    background-color: #3333cc;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5555dd;
+}
